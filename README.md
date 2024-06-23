@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# usePopcorn 🍿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **usePopcorn**, a React application for searching, rating, and tracking movies using the OMDB API.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Search Movies:** Search for movies using keywords.
+- **Movie Details:** View detailed information about selected movies.
+- **Rate Movies:** Rate movies and add them to your watched list.
+- **Track Watched Movies:** Keep track of movies you have watched with user ratings.
+- **Local Storage:** Persist your watched movie list across sessions.
+- **Responsive Design:** Designed to work seamlessly on desktop and mobile devices.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- OMDB API
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run this project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```
+   git clone https://github.com/osama206/usepopcorn
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
 
-### `npm run eject`
+   ```
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Check out the live demo of the application on GitHub Pages:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[usePopcorn Demo](https://usepopcorn.netlify.app/)
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project was made possible by the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React:** Developed by Facebook.
+- [**OMDB API:**](https://www.omdbapi.com/) Open Movie Database API for fetching movie data.
+- **StarRating Component:** based on React and SVG icons.
+- **useLocalStorageState Custom Hook:** for managing state with local storage.
+- **useMovies Custom Hook:** for managing movie data fetching.
+- **Loader and ErrorMessage Components:** for displaying loading states and error messages.
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! Fork the repository and submit pull requests for enhancements.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
